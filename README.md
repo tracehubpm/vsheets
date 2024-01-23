@@ -2,6 +2,7 @@
 [![DevOps By Rultor.com](http://www.rultor.com/b/trarcehubpm/vsheets)](http://www.rultor.com/p/tracehubpm/vsheets)
 [![We recommend IntelliJ IDEA](https://www.elegantobjects.org/intellij-idea.svg)](https://www.jetbrains.com/idea/)
 
+[![rake](https://github.com/tracehubpm/vsheets/actions/workflows/rake.yml/badge.svg)](https://github.com/tracehubpm/vsheets/actions/workflows/rake.yml)
 [![Hits-of-Code](https://hitsofcode.com/github/tracehubpm/vsheets)](https://hitsofcode.com/view/github/tracehubpm/vsheets)
 [![PDD status](http://www.0pdd.com/svg?name=tracehubpm/vsheets)](http://www.0pdd.com/p?name=tracehubpm/vsheets)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/tracehubpm/vsheets/blob/master/LICENSE.txt)
@@ -20,9 +21,10 @@ of artifacts in your project, it includes:
 * TBD..
 
 Each sheet must have a unit tests.
-We are keeping them inside [spec]().
-For instance, take a look at [`struct.xsl`]() 
-and [`struct_spec.rb`]().
+We are keeping them inside [spec](https://github.com/tracehubpm/vsheets/tree/master/spec).
+
+For instance, take a look at [`struct.xsl`](https://github.com/tracehubpm/vsheets/blob/master/xsl/struct.xsl) 
+and [`struct_spec.rb`](https://github.com/tracehubpm/vsheets/blob/master/spec/struct_spec.rb).
 
 ### How to contribute?
 
