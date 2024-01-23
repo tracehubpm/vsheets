@@ -22,12 +22,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 -->
-<!--
-@todo #15:30min Get rid of XSL resources inside tracehub repo.
- All resources from /validation package should be transferred
- into new repo. We should get rid of XSL sheets here, after they will be
- stored in different repository. Don't forget to remove this puzzle
--->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:variable name="arcError">
     <xsl:if test="count(//performers[roles='ARC']) != 1">
