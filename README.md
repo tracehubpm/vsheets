@@ -26,6 +26,15 @@ We are keeping them inside [spec](https://github.com/tracehubpm/vsheets/tree/mas
 For instance, take a look at [`struct.xsl`](https://github.com/tracehubpm/vsheets/blob/master/xsl/struct.xsl) 
 and [`struct_spec.rb`](https://github.com/tracehubpm/vsheets/blob/master/spec/struct_spec.rb).
 
+### Sheets versioning
+
+After merging updates into `master` branch, we can release changes into new tagged branch.
+After release happened, you can fetch it using a released tag, for instance:
+`https://raw.githubusercontent.com/tracehubpm/vsheets/0.0.1/xsl/struct.xsl`.
+
+Otherwise, you can point the version to `master`, which is **not recommended**
+due to of possible instabilities with it.
+
 ### How to contribute?
 
 First install [Ruby 3.1.4+](https://www.ruby-lang.org/en/news/2023/03/30/ruby-3-1-4-released)
