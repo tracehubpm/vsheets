@@ -1,0 +1,19 @@
+architect:
+  - h1alexbel
+docker:
+  image: l3r8y/rultor-image:1.0.3
+merge:
+  script: |
+    bundle install
+    bundle exec rake
+# @todo #1:60min Release script for rultor.
+#  We should prepare a release script for rultor
+#  that will release sheets to provided github tag, like 0.0.1.
+release:
+  script: |
+    echo There is no release here
+    exit -1
+deploy:
+  script: |
+    echo There is no deploy here
+    exit -1
