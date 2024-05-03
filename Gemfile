@@ -26,7 +26,7 @@ ruby '~>3.2'
 Encoding.default_external = Encoding::UTF_8
 Encoding.default_internal = Encoding::UTF_8
 
-gem 'rake', '13.1.0'
+gem 'rake', '13.2.1'
 gem 'nokogiri', '1.16.0'
 gem 'rspec', '3.12.0'
 gem 'simplecov', '0.22.0'
