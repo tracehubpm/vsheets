@@ -31,5 +31,5 @@ gem 'nokogiri', '1.16.0'
 gem 'rspec', '3.12.0'
 gem 'simplecov', '0.22.0'
 gem 'rubocop', '1.60.1', require: false
-gem 'rubocop-rspec', '2.26.1', require: false
+gem 'rubocop-rspec', '2.31.0', require: false
 gem 'xcop', '0.7.1'
